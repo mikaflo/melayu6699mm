@@ -1,0 +1,50 @@
+.title {
+    font-size: 3em;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 87, 87);
+    font-kerning: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    transition: font-size 0.3s ease-in-out;
+}
+.title2 {
+    font-size: 6em;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 87, 87);
+    font-kerning: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.btn-custom {
+    background: rgb(255, 255, 255);
+    color: rgb(255, 87, 87);
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    border-width: 0;
+    padding: .5rem 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 2em;
+    }
+    .title2 {
+        font-size: 4em;
+    }   
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 1.5em;
+    }
+    .title2 {
+        font-size: 3em;
+    }
+}
